@@ -14,8 +14,8 @@ Its main goal: to make it easier to download videos in a specific resolution.
 <h3>Install:</h3>
 
 ```bash
-git clone https://github.com/wotoryze/bash-yt-downloader
-cd ./bash-yt-downloader
+git clone https://github.com/wotoryze/bash-ytdlp
+cd ./bash-ytdlp
 chmod +x ./yt-downloader_EN.sh
 ```
 <h3>First way:</h3>
@@ -55,8 +55,8 @@ And enter args
 <h3>Установка:</h3>
 
 ```bash
-git clone https://github.com/wotoryze/bash-yt-downloader
-cd ./bash-yt-downloader
+git clone https://github.com/wotoryze/bash-ytdlp
+cd ./bash-ytdlp
 chmod +x ./yt-downloader_RU.sh
 ```
 <h3>Первый способ:</h3>
