@@ -1,8 +1,8 @@
-# bash-yt-downloader
+# bash-ytdlp
 <h1>English</h1>
 
 <h2>Description</h2>
-This is a simple bash script that simplifies working with yt-dlp and makes it more comfortable. <br>
+This is a simple bash script that simplifies working with yt-dlp and makes download video from YouTube more comfortable. <br>
 Its main goal: to make it easier to download videos in a specific resolution.
 
 <h2>Requirements</h2>
@@ -43,7 +43,7 @@ And enter args
 <h1>Русский</h1>
 
 <h2>Описание</h2>
-Это простой bash скрипт, который упрощает работу с yt-dlp и делает ее более комфортной. <br>
+Это простой bash скрипт, который упрощает работу с yt-dlp и делает скачивание видео с YouTube более комфортным. <br>
 Его основная цель: облегчить загрузку видео в определенном разрешении.
 
 <h2>Требования</h2>
