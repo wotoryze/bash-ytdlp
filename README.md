@@ -16,19 +16,19 @@ Its main goal: to make it easier to download videos in a specific resolution.
 ```bash
 git clone https://github.com/wotoryze/bash-yt-downloader
 cd ./bash-yt-downloader
-chmod +x ./yt-downloader-EN.sh
+chmod +x ./yt-downloader_EN.sh
 ```
 <h3>First way:</h3>
 
 ```bash
-./yt-downloader-EN.sh
+./yt-downloader_EN.sh
 ```
 And enter args
 
 <h3>Second way</h3>
 
 ```bash
-./yt-downloader-EN.sh <URL> (resolution) (path) (yt-dlp)
+./yt-downloader_EN.sh <URL> (resolution) (path) (yt-dlp)
 <> - required arguments
 () - optional arguments
 ```
@@ -57,19 +57,19 @@ And enter args
 ```bash
 git clone https://github.com/wotoryze/bash-yt-downloader
 cd ./bash-yt-downloader
-chmod +x ./yt-downloader-RU.sh
+chmod +x ./yt-downloader_RU.sh
 ```
 <h3>Первый способ:</h3>
 
 ```bash
-./yt-downloader-RU.sh
+./yt-downloader_RU.sh
 ```
 И ввести аргументы.
 
 <h3>Второй способ:</h3>
 
 ```bash
-./yt-downloader-RU.sh <URL> (разрешение) (путь) (yt-dlp)
+./yt-downloader_RU.sh <URL> (разрешение) (путь) (yt-dlp)
 <> - обязательные аргументы
 () - опциональные аргументы
 ```
