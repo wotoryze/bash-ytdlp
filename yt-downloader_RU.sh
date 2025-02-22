@@ -121,6 +121,8 @@ rname=${rname//'\'/'_'}
 rname=${rname//'|'/'_'}
 rname=${rname//'$'/'_'}
 rname=${rname//'#'/'_'}
+rname=${rname//'"'/'_'}
+rname=${rname//"'"/'_'}
 mv "${path}/result$rnd.mp4" "${path}/${rnd}-${rname}.mp4"
 echo "Переименовано"
 echo ""
