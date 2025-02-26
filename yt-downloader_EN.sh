@@ -131,7 +131,7 @@ echo -e " \033[32m_________"
 echo "|  Done!  |"
 echo -e " ‾‾‾‾‾‾‾‾‾\033[37m"
 
-echo -e "\033[34mВидео: ${path}/'${rnd}-${rname}.mp4'\033[37m"
+echo -e "\033[34mVideo: ${path}/'${rnd}-${rname}.mp4'\033[37m"
 if [[ $1 == "" ]]
 then
 read -sn1 -p "Press any key to exit..."; echo
