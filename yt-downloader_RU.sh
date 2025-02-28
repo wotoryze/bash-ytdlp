@@ -69,6 +69,7 @@ if [ $dlp == i ]
 then
   rname=$(yt-dlp --simulate --print "%(title)s" $url)
 else
+  chmod +x "$dlp"
   rname=$("$dlp" --simulate --print "%(title)s" $url)
 fi
 rname=${rname//'/'/'_'}
