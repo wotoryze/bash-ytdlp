@@ -69,6 +69,7 @@ if [ $dlp == i ]
 then
   rname=$(yt-dlp --simulate --print "%(title)s" $url)
 else
+  chmod +x "$dlp"
   rname=$("$dlp" --simulate --print "%(title)s" $url)
 fi
 rname=${rname//'/'/'_'}
@@ -91,7 +92,6 @@ if [ $dlp == i ]
 then
   yt-dlp -S "height:$res" -f "bv*" -o "video${rnd}" --path $path $url || dError
 else
-  chmod +x "$dlp"
   "$dlp" -S "height:$res" -f "bv*" -o "video${rnd}" --path $path $url || dError
 fi
 echo -e "\033[33m‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾\033[37m"
