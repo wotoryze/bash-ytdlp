@@ -15,8 +15,14 @@ dError() {
 
 fError() {
   echo -e "\033[31mERROR in ffmpeg!"
-  rm "${path}/video${rnd}"
-  rm "${path}/audio${rnd}"
+  if [ -f "${path}/video${rnd}" ]
+  then
+    rm "${path}/video${rnd}"
+  fi
+  if [ -f "${path}/audio${rnd}" ]
+  then
+    rm "${path}/audio${rnd}"
+  fi
   if [ -f "${path}/result${rnd}.mp4" ]
   then
     rm "${path}/result${rnd}.mp4"
@@ -26,8 +32,14 @@ fError() {
 
 uError() {
   echo -e "\033[31mUnknown ERROR!"
-  rm "${path}/result${rnd}.mp4"
-  rm "${path}/${rnd}-${rname}.mp4"
+  if [ -f "${path}/video${rnd}" ]
+  then
+    rm "${path}/video${rnd}"
+  fi
+  if [ -f "${path}/audio${rnd}" ]
+  then
+    rm "${path}/audio${rnd}"
+  fi
   exit 1
 }
 
