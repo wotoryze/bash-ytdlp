@@ -19,14 +19,14 @@ chmod +x ./yt-downloader.sh
 <h3>First way:</h3>
 
 ```bash
-./yt-downloader_EN.sh
+./yt-downloader.sh
 ```
 And enter args
 
 <h3>Second way</h3>
 
 ```bash
-./yt-downloader_EN.sh <URL> (resolution) (path) (yt-dlp) (cookies)
+./yt-downloader.sh <URL> (resolution) (path) (yt-dlp) (cookies)
 <> - required arguments
 () - optional arguments
 ```
