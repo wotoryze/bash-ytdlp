@@ -1,4 +1,4 @@
-# bash-ytdlp
+# bash-ytdlp 1.5
 <h2>Description</h2>
 This is a simple bash script that simplifies working with yt-dlp and makes download video from YouTube more comfortable. <br>
 Its main goal: to make it easier to download videos in a specific resolution.
